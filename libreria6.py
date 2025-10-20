@@ -367,3 +367,5 @@ def mostrar_simulacion_fixed(K=800, r=0.25, alpha=0.01, Tf=40):
     simulator = CellularGrowthSimulatorFixed(K=K, r0=r, alpha0=alpha, Tf=Tf)
     simulator.show_simulation()
     return simulator
+
+# Rectificar
